@@ -1,0 +1,13 @@
+[project]
+name = "second-helping"
+version = "1.0.0"
+description = "Use your food, or share it, before it goes to waste."
+requires-python = ">=3.10"
+dependencies = ["flet==0.28.3"]
+
+[tool.flet]
+org = "com.secondhelping"
+product = "Second Helping"
+
+[tool.flet.ios.info]
+NSPhotoLibraryUsageDescription = "Second Helping reads photos of your food and receipts."
